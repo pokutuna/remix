@@ -25,7 +25,7 @@ sourceMapSupport.install({
     return null;
   },
 });
-installGlobals();
+installGlobals({ nativeFetch: true });
 
 /** @typedef {import('@remix-run/node').ServerBuild} ServerBuild */
 
